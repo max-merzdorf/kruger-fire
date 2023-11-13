@@ -10,7 +10,7 @@ var names_field = "Name";
 // IMPORTANT: please rename the shapefile to 'table' if it is named differently!
 
 // ------------------------------------------------------------------------------- //
-// -------------------------- DO NOT CHANGE -------------------------------------- //
+// ---------------------------- SCRIPT PART -------------------------------------- //
 
 var col = ee.ImageCollection("COPERNICUS/S2_SR_HARMONIZED")
   .filterBounds(table)
